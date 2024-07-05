@@ -1,0 +1,6 @@
+Name=input('enter your Name:')
+last_name=input('enter your last_nam: ')
+country=input('whitch your country')
+fav_car=input('enter your fav_car: ')
+fav_color=input('enter your fav_color:')
+print('  fhello my name is '+ Name + ' my last name is '+ last_name +' i live in ' + country + ' my favorite car is ' + fav_car + ' my favorut color is ' + fav_color)
