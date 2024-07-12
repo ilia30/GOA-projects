@@ -1,0 +1,6 @@
+math = float(input("enter math scor "))
+english = int(input("enter english scor "))
+music = float(input("enter music scor "))
+russia = int(input("enter russia scor "))
+science = float(input("enter science scor "))
+print((math + english + music + russia + science) // 5)

@@ -1,0 +1,7 @@
+a=int(input("enter nam a:"))
+b=int(input("enter nam b:"))
+print(a + b)
+print(a - b)
+print(a * b)
+print(a / b)
+print(a ** b)
