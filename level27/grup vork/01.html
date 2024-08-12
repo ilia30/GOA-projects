@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body>
+<style>
+    
+    body {
+        font-family: Arial, sans-serif;
+        background: linear-gradient(45deg, #7c3db8,#e64c93, #7218d9);
+background-size: 300% 300%; 
+        padding: 20px;
+    }
+    .form-container {
+        background-color: white;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        max-width: 400px;
+        margin: auto;
+    }
+    .form-container h2 {
+        margin-bottom: 20px;
+        font-size: 24px;
+    }
+    .form-container label {
+        display: block;
+        margin-bottom: 5px;
+    }
+    .form-container input[type="text"], .form-container input[type="number"], .form-container input[type="email"] {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+    .form-container button {
+        padding: 10px 20px;
+        background-color: #007BFF;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    .form-container button:hover {
+        background-color: #0056b3;
+    }
+</style>
+</head>
+<body>
+<div class="form-container">
+    <h2>Submit Your Personal Records</h2>
+    <form id="pr-form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="age">age</label>
+        <input type="number" id="age" name="age" required>
+
+
+        <button type="button" onclick="saveData()">Submit</button>
+        <button><a href="02.html">continue</a></button>
+    </form>
+</div>
+
+<script>
+    function saveData() {
+        
+        const name = document.getElementById('name').value;
+        const email = document.getElementById('email').value;
+   
+
+        
+        const prData = {
+            name: name,
+            email: email,
+            
+        };
+
+        
+        localStorage.setItem('prData', JSON.stringify(prData));
+
+        
+        alert('Your personal records have been saved!');
+    }
+
+    
+    function loadData() {
+        const savedData = localStorage.getItem('prData');
+        if (savedData) {
+            const prData = JSON.parse(savedData);
+            document.getElementById('name').value = prData.name;
+            document.getElementById('email').value = prData.email;
+            document.getElementById('push-ups').value = prData.pushUps;
+            document.getElementById('pull-ups').value = prData.pullUps;
+            document.getElementById('dips').value = prData.dips;
+        }
+    }
+
+
+    window.onload = loadData;
+</script>
+       
+ 
+
+
+    
+</body>
+</html>
