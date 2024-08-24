@@ -1,0 +1,16 @@
+list=[2
+      ,"sus"
+      ,1.2,
+      True,
+      2+2,
+      None,
+      {1,2,3},
+      (3,4,5),
+      {"name":"sus"},
+      1+2j]
+list[0]="chad"
+list[1]=4.4
+list[2]=False
+list[3]=50+2
+list[4]={5,6,7}
+print(list)
