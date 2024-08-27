@@ -1,1 +1,1 @@
-#no classswork
+print("no classswork") 
