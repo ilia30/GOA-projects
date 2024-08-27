@@ -1,0 +1,23 @@
+body{
+background-color:black;
+}
+
+h1{
+    color: lime;
+ font-family: fantasy;   
+}
+
+img{
+    width: 200px;
+    border: 15px;
+    border: black;
+    background-color: #000;
+}
+
+table{
+    color:white;
+    background-color: white;
+
+}
+
+
