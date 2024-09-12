@@ -1,0 +1,38 @@
+h1{
+   color: yellowgreen;
+   background-color: black;
+}
+h2{
+   color: green;
+   background-color: brown;
+}
+h3{
+   color: darkgray;
+   background-color: blue;
+}
+h4{
+  color: crimson;
+  background-color: midnightblue;
+  font-size: 20px;
+}
+h5{
+   color: cornflowerblue;
+   background-color: bisque;
+   font-size: 12px;
+}
+h6{
+   color: aqua;
+   background-color: darkblue;
+   font-size: 25px;  
+}
+p{
+   color: blueviolet;
+   background-color: darkslateblue;
+   font-size: 10px;
+}
+img{
+   color: darkgoldenrod;
+}
+
+
+
