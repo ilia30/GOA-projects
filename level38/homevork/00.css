@@ -1,0 +1,14 @@
+body{
+    background-color: black;
+}
+
+
+h1{
+    color: rgb(255, 0, 0);
+}
+p{
+   color: lime;
+}
+button{
+    color: blue;
+}
