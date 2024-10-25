@@ -1,0 +1,12 @@
+table{
+    width: 100%;
+    border-collapse: collapse;
+    font-family: cursive;
+    text-align: center;
+    font-weight: lighter;
+    color: white;
+}
+tr{
+  background-color: rgba(149, 225, 35, 0.927);
+}
+

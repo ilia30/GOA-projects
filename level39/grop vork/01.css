@@ -1,0 +1,12 @@
+body{
+    background-image: url(4.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+button{
+    background-color: gray;
+    font-size: 20px;
+    font-family: cursive;
+}

@@ -1,0 +1,19 @@
+.box{
+    width: 900px;
+    height: 770px;
+    background-color: brown;
+    color: white;
+    text-align: left;
+    font-size: 15px;
+    font-family: cursive;
+    
+}
+button{
+    background-color: green; 
+    text-align: right;
+}
+p{
+
+    font-family: cursive;
+    text-align: right;
+}
